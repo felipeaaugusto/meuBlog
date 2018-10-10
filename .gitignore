@@ -1,0 +1,3 @@
+content/migrations
+*.pyc*
+db.sqlite3
