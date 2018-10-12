@@ -1,1 +1,1 @@
-web: python manage.py
+web: gunicorn meuBlog.wsgi --log-file -
