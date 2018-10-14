@@ -123,9 +123,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Activate Django-Heroku.
+# Heroku https://github.com/Gpzim98/django-heroku
 django_heroku.settings(locals())
 
-# Heroku
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Static files (CSS, JavaScript, Images)
