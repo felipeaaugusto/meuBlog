@@ -129,9 +129,3 @@ STATICFILES_DIRS = [
 # Activate Django-Heroku.
 # Heroku https://github.com/Gpzim98/django-heroku
 django_heroku.settings(locals())
-
-MIDDLEWARE_CLASSES = (
-    'whitenoise.middleware.WhiteNoiseMiddleware'
-)
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
