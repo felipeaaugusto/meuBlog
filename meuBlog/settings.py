@@ -13,8 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 import django_heroku
 from decouple import config
-from dj_database_url import parse as dburl
-from os.path import abspath, basename, dirname, join, normpath
+from os.path import abspath, dirname, join, normpath
 
 # Important for Heroku
 BASE_DIR = dirname(dirname(abspath(__file__)))
